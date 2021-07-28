@@ -1,9 +1,17 @@
+:root {
+  --accent-color: hsl(12, 76%, 61%);
+  --bg-color: hsl(197, 37%, 24%);
+  --neutral-color: hsl(0, 0%, 100%);
+  --stars-color: hsl(22, 78%, 58%);
+  --user-color: hsl(202, 87%, 54%);
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
 
 .hero--section {
-  background-color: #264653;
+  background-color: var(--bg-color);
 }
 
 .hero--section .hero--paragraph {
@@ -11,6 +19,40 @@
 }
 
 .btn--style {
-  background-color: #e76f51;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--neutral-color);
+}
+
+.featured--bike {
+  width: 288px;
+  height: 243px;
+}
+
+.bike-grayscale {
+  filter: grayscale(1);
+}
+
+.highlighted--text {
+  color: var(--accent-color);
+}
+
+.user--card {
+  max-width: 320px;
+  border: 1px solid #dedede;
+}
+
+.card-image {
+  width: 150px;
+}
+
+.filled {
+  color: var(--stars-color);
+}
+
+.empty {
+  color: var(--stars-color);
+}
+
+.user--name {
+  color: var(--user-color);
 }
