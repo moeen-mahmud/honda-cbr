@@ -1,21 +1,16 @@
-:root {
+Color Declaration :root {
   --accent-color: hsl(12, 76%, 61%);
   --bg-color: hsl(197, 37%, 24%);
   --neutral-color: hsl(0, 0%, 100%);
   --stars-color: hsl(22, 78%, 58%);
   --user-color: hsl(202, 87%, 54%);
+  --neutral-gray: hsl(0, 0%, 87%);
 }
+
+/* Base Style */
 
 * {
   font-family: "Poppins", sans-serif;
-}
-
-.hero--section {
-  background-color: var(--bg-color);
-}
-
-.hero--section .hero--paragraph {
-  width: 85%;
 }
 
 .btn--style {
@@ -23,25 +18,43 @@
   color: var(--neutral-color);
 }
 
+.highlighted--text {
+  color: var(--accent-color);
+}
+
+/* Hero Styling */
+
+.hero--section {
+  background-color: var(--bg-color);
+}
+
+.hero--paragraph {
+  width: 85%;
+}
+
+/* Featured Styling */
+
 .featured--bike {
   width: 288px;
   height: 243px;
 }
 
-.bike-grayscale {
+.bike--grayscale {
   filter: grayscale(1);
 }
 
-.highlighted--text {
-  color: var(--accent-color);
-}
+/* Testimonial Styling */
 
 .user--card {
   max-width: 320px;
-  border: 1px solid #dedede;
+  border: 1px solid var(--neutral-gray);
 }
 
-.card-image {
+.user--name {
+  color: var(--user-color);
+}
+
+.card--image {
   width: 150px;
 }
 
@@ -51,8 +64,4 @@
 
 .empty {
   color: var(--stars-color);
-}
-
-.user--name {
-  color: var(--user-color);
 }
