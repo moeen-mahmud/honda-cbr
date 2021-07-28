@@ -5,6 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Honda CBR</title>
+    <!-- Bootstrap Stylesheet CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Fontsawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/0442be25ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Hero Section -->
+      <div class="hero--section container-fluid text-light py-5" id="#home">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-5 col-12 ps-lg-5">
+            <p class="hero--pretext fw-light">
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1 class="display-5 fw-bold m-0">Honda CBR 300R</h1>
+            <p class="hero--paragraph fw-light my-3">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button
+              type="button"
+              class="btn btn--style my-3 px-4 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Purchase
+            </button>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img
+              src="./images/header-bike.png"
+              alt="hero bike"
+              class="w-75 d-block mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Purchase CBR 300R?
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal--img">
+                <img
+                  src="./images/header-bike.png"
+                  alt="modal header bike"
+                  class="w-25 rounded-circle"
+                />
+              </div>
+              <div class="modal--info">
+                <h5 class="fw-bold my-3">Details</h5>
+                <p>
+                  In the city, the CBR300R returns an insane fuel economy and
+                  has a pretty good range. Thanks to its 71 mpg rating, the
+                  3.4-gallon fuel tank affords more than 220 miles of range. So,
+                  it may not fare well on the highway, but it'll get plenty of
+                  mileage around town.
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn--style">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main Section -->
+    <main></main>
+    <!-- Footer Section -->
+    <footer></footer>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

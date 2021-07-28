@@ -1,0 +1,16 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero--section {
+  background-color: #264653;
+}
+
+.hero--section .hero--paragraph {
+  width: 85%;
+}
+
+.btn--style {
+  background-color: #e76f51;
+  color: #ffffff;
+}
