@@ -73,6 +73,8 @@
   color: var(--stars-color);
 }
 
+/* Explore Styling */
+
 .carousel--image {
   width: 60%;
   filter: grayscale(0.5);
