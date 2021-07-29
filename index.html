@@ -26,12 +26,73 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- Header Section -->
     <header>
+      <!-- Navbar -->
+      <nav
+        class="
+          navbar--section navbar navbar-expand-lg navbar-dark
+          fixed-top
+          p-3
+          mb-5
+        "
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#shop"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#faq"
+                  >FAQ</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#explore"
+                  >Explore</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link active btn btn--style px-4"
+                  aria-current="page"
+                  href="#login"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <!-- Hero Section -->
-      <div class="hero--section container-fluid text-light py-5" id="#home">
+      <div class="hero--section container-fluid text-light py-5 my-5" id="home">
         <div class="row align-items-center justify-content-center">
           <section class="col-lg-5 col-12 ps-lg-5">
             <p class="fw-lighter">
@@ -111,7 +172,7 @@
               >
                 Close
               </button>
-              <button type="button" class="btn btn--style">Buy Now</button>
+              <button type="button" class="btn btn--style">Checkout</button>
             </div>
           </div>
         </div>
@@ -231,7 +292,7 @@
         </div>
       </div>
       <!-- FAQ Section -->
-      <div class="container my-5 py-5 text-center">
+      <div class="container my-5 py-5 text-center" id="faq">
         <h1 class="display-5 fw-bold">
           Frequently Asked <span class="highlighted--text">Questions</span>
         </h1>
@@ -396,7 +457,7 @@
         </div>
       </div>
       <!-- Login Section -->
-      <div class="container my-5 py-3 text-center">
+      <div class="container my-5 py-3 text-center" id="login">
         <h1 class="display-5 fw-bold">
           Get <span class="highlighted--text">Started</span>
         </h1>
@@ -464,7 +525,7 @@
         </div>
       </div>
       <!-- Explore Section -->
-      <div class="container my-5 py-3 text-center">
+      <div class="container my-5 py-3 text-center" id="explore">
         <h1 class="display-5 fw-bold">
           <span class="highlighted--text">Explore </span>More
         </h1>

@@ -30,6 +30,7 @@
 
 /* Hero Styling */
 
+.navbar--section,
 .hero--section {
   background-color: var(--bg-color);
 }
@@ -79,5 +80,5 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: black;
+  background-color: hsl(0, 0%, 0%);
 }
