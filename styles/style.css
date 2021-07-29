@@ -1,4 +1,6 @@
-Color Declaration :root {
+/* Color Declaration  */
+
+:root {
   --accent-color: hsl(12, 76%, 61%);
   --bg-color: hsl(197, 37%, 24%);
   --neutral-color: hsl(0, 0%, 100%);
@@ -16,6 +18,10 @@ Color Declaration :root {
 .btn--style {
   background-color: var(--accent-color);
   color: var(--neutral-color);
+}
+
+.btn--signup {
+  background-color: var(--user-color);
 }
 
 .highlighted--text {
@@ -64,4 +70,14 @@ Color Declaration :root {
 
 .empty {
   color: var(--stars-color);
+}
+
+.carousel--image {
+  width: 60%;
+  filter: grayscale(0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
 }
